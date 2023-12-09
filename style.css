@@ -1,0 +1,101 @@
+/* UA Resets */
+body, p {
+    margin: 0;
+}
+
+h1, h2 {
+    margin: 0;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+/* Components */
+body {
+    background-image: url(images/background.png);
+}
+
+div.wrap {
+    width: 780px;
+    margin: 30px auto;
+}
+
+.header {
+    background-image: url(./images/cover.png);
+    background-size: cover;
+    text-align: center;
+    padding: 85px;
+    color: rgb(157, 213, 174);
+}
+
+.header img.profile {
+    width: 180px;
+    border: 5px double;
+    border-radius: 50%;
+}
+
+.header h1 {
+    margin: 10px;
+    font-size: 85px;
+    font-weight: 900;
+}
+
+.header p {
+    border-top: 3px solid;
+    padding: 3px;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.contents {
+    background-color: #cac8c8;
+    padding: 20px;
+}
+
+.section {
+    background-color: rgb(252, 254, 251);
+    padding: 20px;
+    background-image: url(images/icon-information.png);
+    background-repeat: no-repeat;
+    background-position: center right 25px;
+}
+
+.section + .section {
+    margin-top: 20px;
+    background-image: url(images/icon-skills.png);
+}
+
+.section h2 {
+    margin-bottom: 15px;
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(46, 92, 53);
+}
+
+.list li {
+    border-left: 4px solid rgb(240, 237, 237);
+    padding: 0 0 0 10px;
+    font-size: 17px;
+    color: rgb(180, 182, 180);
+}
+
+.list li:hover {
+    border-color: rgb(97, 175, 97);
+    color: rgb(97, 175, 97);
+}
+
+footer {
+    background-color:rgb(255, 255, 255);
+    padding: 5px;
+    text-align: center;
+    letter-spacing: 8px;
+    color: #35333379;
+}
