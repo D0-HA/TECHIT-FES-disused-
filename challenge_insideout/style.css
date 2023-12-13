@@ -1,0 +1,82 @@
+/* UA Reset */
+body { margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Components */
+:root {
+	font-family: 'arial';
+}
+
+body {
+	background-color: rgb(56, 55, 55);
+}
+
+.wrap {
+	text-align: center;
+	width: 600px;
+	margin: 70px auto;
+	position: relative;
+}
+
+.wrap a {
+	background-color:white;
+	display: inline-block;
+	margin: 0 20px;
+	width: 200px;
+	height: 200px;
+    border-radius: 100px;
+	line-height: 200px;
+	font-weight: bold;
+	position: absolute;
+	background-repeat: no-repeat;
+	background-size: 150px;
+	transition: all 1s;
+	letter-spacing: 1px;
+}
+
+.wrap .anger {
+	color: red;
+	top: 0;
+	left: 0;
+	background-position: 0 500px;
+}
+
+.wrap .joy {
+	color: orange;
+	top: 0;
+	left: 240px;
+	background-position: 20px -250px;
+}
+
+.wrap .sadness {
+	color: skyblue;
+	top: 0;
+	left: 480px;
+	background-position: 0 500px;
+}
+
+.wrap .anger:hover {
+	background-image: url(./images/anger.png);
+	box-shadow: 0 0 13px 0 red;
+	background-position: 25px 50px;
+	line-height: 70px;
+	
+}
+
+.wrap .joy:hover {
+	background-image: url(./images/joy.png);
+	box-shadow: 0 0 13px 0 orange;
+	background-position: 20px 3px;
+	line-height: 330px;
+}
+
+.wrap .sadness:hover {
+	background-image: url(./images/sadness.png);
+	box-shadow: 0 0 13px 0 skyblue;
+	background-position: 25px 50px;
+	line-height: 70px;
+}
