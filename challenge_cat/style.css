@@ -1,0 +1,31 @@
+/* UA Resets */
+body, h1 {
+    margin: unset;
+}
+
+/* Components */
+body {
+    background-image: url(./images/bg2.png)
+}
+
+div {
+    background-color: white;
+    width: 400px;
+    margin: 60px auto;
+    padding: 20px;
+    border-radius: 15px 15px 0 0;
+    border-bottom: 25px solid brown;
+    text-align: center;
+}
+
+h1 {
+    border-bottom: 5px solid;
+    display: inline-block;
+    color: brown;
+}
+
+p {
+    background-color: gainsboro;
+    padding: 30px 40px;
+    color: gray;
+}
