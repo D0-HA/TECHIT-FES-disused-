@@ -1,0 +1,84 @@
+/* Resets */
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: unset;
+    padding: unset;
+}
+
+/* Layouts */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    background-color: white;
+    box-shadow: inset 0 0 5px black;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Components */
+.header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: inset 0 0 5px black;
+    align-items: center;
+}
+
+.header-logo {
+    box-shadow: inset 0 0 5px black;
+    width: 200px;
+    height: 100%;
+}
+
+.header-menu {
+    margin-right: 20px;
+    display: flex;
+}
+
+.header-menu li {
+    width: 120px;
+    padding: 10px;
+    box-shadow: inset 0 0 5px black;
+}
+
+.main {
+    box-shadow: inset 0 0 5px black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.plate {
+    box-shadow: inset 0 0 5px black;
+    width: 400px;
+    height: 200px;
+}
+
+.plate:first-child {
+    width: 1200px;
+    flex-shrink: 0;
+    height: 300px;
+}
+.footer {
+    box-shadow: inset 0 0 5px black;
+    height: 100px;
+    display: flex;
+}
+
+.footer-logo {
+    box-shadow: inset 0 0 5px black;
+    width: 200px;
+}
+
+.footer-info {
+    box-shadow: inset 0 0 5px black;
+    flex-grow: 1;
+}
+
+.footer-link {
+    box-shadow: inset 0 0 5px black;
+    width: 200px;
+}
