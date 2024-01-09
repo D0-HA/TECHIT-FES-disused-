@@ -1,0 +1,67 @@
+/* Resets */
+body, p {
+	margin: unset;
+}
+
+ul {
+	margin: unset;
+	padding: unset;
+	list-style-type: none;
+}
+
+img {
+	max-width: 100%;
+	vertical-align: top;
+}
+
+/* Typography */
+:root {
+	font-family: 'Noto Sans KR', 'sans-serif';
+}
+
+/* Layouts */
+.container {
+	max-width: 1877px;
+	height: 1040px;
+	margin: 0 auto;
+	padding: 19px 22px 21px 21px; 
+	display: flex;
+	align-items: center;
+}
+
+/* Components */
+body {
+	background-color: #70C994;
+}
+
+.app {
+	background-color: #fff;
+	width: 1723px;
+	height: 100%;
+	border-radius: 28px;
+}
+
+.sidebar-menu {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	text-align: center;
+}
+
+.menu-cover {
+	padding: 30px;
+}
+
+.menu-cover-src {
+	margin-bottom: 13px;
+}
+
+.sidebar-menu li {
+	background-color: #fff;
+	width: 154px;
+	height: 154px;
+	border-radius: 30px;
+	font-size: 16px;
+	font-weight: 700;
+	color: #333;
+}
